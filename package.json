@@ -1,0 +1,31 @@
+{
+  "name": "threejs-projects",
+  "version": "1.0.0",
+  "description": "webpack project for making threejs demos",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jet29/threejs-projects.git"
+  },
+  "author": "jose tirado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jet29/threejs-projects/issues"
+  },
+  "homepage": "https://github.com/jet29/threejs-projects#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
